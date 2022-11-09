@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: rgb(223, 158, 105);
+    height: 200px;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: right;
+    margin-top: -55px;
+    margin-right: 100px;
+    font-size: 2rem;
+}
+
+.pet {
+    max-width: 100px;
+    align-items: flex-start;
+    margin-left: 5px;
+    margin-top: 55px;
+}
+
+h1,
+h2 {
+  font-family: Verdana, Tahoma;
+}
+
+aside { 
+    width: 35%; 
+    height: 100%; 
+    float: left; 
+    position: fixed; 
+}
+
+#pets {
+    max-width: 350px;
+    border-radius: 30%;
+    align-items: left;
+}
+
+.container {
+    background-color: bisque;
+    display:grid; 
+    grid-template-columns: 1fr 1fr; 
+    height: 65vw;
+    padding: 3rem 15vw;
+    }
+  
+.column-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      color: #222222;
+      padding: 0rem 2rem;
+  }
+  
+.column-left h1 {
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  padding-bottom: 10px;
+  }
+  
+.column-left p {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;  
+      line-height: 1.5;
+}
+  
+.column-right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+  
+footer {
+    background-color: rgb(223, 158, 105);
+    padding: 15px;
+    height: 30px;
+    text-align: center;
+}
+
+#dog-banho {
+max-width: 350px;
+margin-top: 0;
+}
+
+#header-principal {
+    height: 400px;
+    display: flex;
+    border-bottom: 18px solid #1d150a;
+}
+
+#header-principal h1 {
+   margin-top: 80px;
+   font-size: 5rem;
+   text-align: right;
+  
+}
+
+#back-to-home {
+    text-align: left;
+    display:contents;
+    margin-top: 350px;
+    margin-bottom: 0;
+}
+
+#content {
+    margin-top: 25px;
+    line-height: 1.5;
+    font-size: 2em;
+}
+
+#principal-footer {
+    border-top: 18px solid #1d150a;
+}
+
+table {
+    width: 500px;
+}
+
+table, th, td, tr{
+    border: 1px solid;
+    height: 24px;
+    width: 600px;
+  }
+
+th, td {
+    padding: 18px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+ .agenda {
+    background-color: #c4c3c3;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+
+#agenda-header {
+    font-size: 4rem;
+    justify-content: center ;
+    padding: -50px;
+  }
+
+#contato {
+background-color: rgba(169, 247, 2, 0.247);
+height: 50px;
+}
+
+#contato h1{
+    font-size: 3rem;
+    padding: 5px;
+    justify-content: center;
+    margin-top: 5px;
+    height: 60px;
+}
+
+.datas {
+    line-height: 2.5;
+}
+
+.contato-footer {
+    background-color: rgba(169, 247, 2, 0.247);
+    border-top: #1d150a solid;
+    height: 30px;
+}
+
+input[type="submit reset"] {
+    width: 30%;
+    margin: 1em;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(204, 198, 198);
+    border-color: rgb(0, 0, 0);
+    min-width: 300px;
+}
+
+#clock {
+    width: 180px;
+}
